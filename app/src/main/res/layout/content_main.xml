@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.khaled.egyptbloodbank.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+<TextView
+    android:id="@+id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Choose Blood Group : "
+    android:textColor="@color/colorPrimary"
+    android:paddingBottom="10dp"
+    android:textSize="20sp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@+id/text1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/Main_A_Plus"
+            android:layout_width="0dp"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="A+"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+        <TextView
+            android:id="@+id/Main_A_minus"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="A-"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+        <TextView
+            android:id="@+id/Main_B_Plus"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="B+"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+        <TextView
+            android:id="@+id/Main_B_Minus"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="B-"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Main_O_Plus"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="O+"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+        <TextView
+            android:id="@+id/Main_O_Minus"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="O-"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+        <TextView
+            android:id="@+id/Main_AB_Plus"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="AB+"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+        <TextView
+            android:id="@+id/Main_AB_Minus"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="AB-"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Main_Any"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:text="Any Blood Group"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BABABA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose City : "
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_margin="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BABABA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Region: "
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="10dp"
+        android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:layout_margin="5dp"
+            />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BABABA"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/search"
+        android:textColor="@color/White"
+        android:background="@drawable/red_border"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="24sp"
+        />
+</LinearLayout>
+</ScrollView>
