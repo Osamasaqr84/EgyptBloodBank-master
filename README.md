@@ -1,2 +1,1 @@
-# EgyptBloodBank-master
-firebase projects:list
+firebase login:ci
