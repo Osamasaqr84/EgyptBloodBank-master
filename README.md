@@ -9,7 +9,7 @@ firebase apps:list --project demoapp-6e3f3
 ┌──────────────────┬───────────────────────────────────────────────┬──────────┐
 │ App Display Name │ App ID                                        │ Platform │
 ├──────────────────┼───────────────────────────────────────────────┼──────────┤
-│ DemoApp  Android │1:357372000022:android:d91adffcda0ef6f8        │ ANDROID  │
+│ DemoApp  Android │ 1:357372000022:android:d91adffcda0ef6f8       │ ANDROID  │
 └──────────────────┴───────────────────────────────────────────────┴──────────┘
 ```
 
