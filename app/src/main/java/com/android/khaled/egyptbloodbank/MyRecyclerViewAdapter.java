@@ -66,6 +66,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         protected TextView Name,phone,address,blood;
 
         ImageView call,message;
+
         public CustomViewHolder(View view) {
             super(view);
             phone = (TextView)view.findViewById(R.id.phone);
