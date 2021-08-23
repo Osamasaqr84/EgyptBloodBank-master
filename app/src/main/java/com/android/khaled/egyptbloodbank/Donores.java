@@ -23,8 +23,7 @@ public class Donores extends AppCompatActivity {
         pb=(ProgressBar)findViewById(R.id.progressBar);
         FireBaseClient fireBaseClient=new FireBaseClient(getBaseContext(),Config.FIREBASE_URL,Rc,pb,con);
         fireBaseClient.refreshData();
-        Log.d("sd","da");
-        Log.d("sd","da");
+
 
     }
 }
