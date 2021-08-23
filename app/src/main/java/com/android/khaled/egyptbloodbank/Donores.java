@@ -25,5 +25,6 @@ public class Donores extends AppCompatActivity {
         fireBaseClient.refreshData();
         Log.d("sd","da");
         Log.d("sd","da");
+        Log.d("sd","da");
     }
 }
