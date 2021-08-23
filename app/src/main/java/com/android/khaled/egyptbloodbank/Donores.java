@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.ProgressBar;
 
 public class Donores extends AppCompatActivity {
@@ -22,5 +23,6 @@ public class Donores extends AppCompatActivity {
         pb=(ProgressBar)findViewById(R.id.progressBar);
         FireBaseClient fireBaseClient=new FireBaseClient(getBaseContext(),Config.FIREBASE_URL,Rc,pb,con);
         fireBaseClient.refreshData();
+        Log.d("sd","da");
     }
 }
