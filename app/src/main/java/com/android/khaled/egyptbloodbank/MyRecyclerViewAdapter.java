@@ -1,5 +1,6 @@
 package com.android.khaled.egyptbloodbank;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -32,8 +33,8 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     }
 
     @Override
-    public void onBindViewHolder(final CustomViewHolder viewHolder,final int i) {
-        final user feedItem = feedItemList.get(i);
+    public void onBindViewHolder(final CustomViewHolder viewHolder, @SuppressLint("RecyclerView") final int position) {
+        final user feedItem = feedItemList.get(position);
 
 
        viewHolder.Name.setText(feedItem.getName());
@@ -50,7 +51,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         viewHolder.message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                shareTextUrl(i);
+                shareTextUrl(position);
             }
         });
     }
