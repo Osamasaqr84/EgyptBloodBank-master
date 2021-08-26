@@ -76,6 +76,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
             call=(ImageView)view.findViewById(R.id.call);
             message=(ImageView)view.findViewById(R.id.sms);
             message=(ImageView)view.findViewById(R.id.sms);
+            message=(ImageView)view.findViewById(R.id.sms);
         }
     }
 
