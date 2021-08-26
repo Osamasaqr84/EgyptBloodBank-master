@@ -15,7 +15,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-        
+
+      
     - name: Install NDK
       run: echo "y" | sudo /usr/local/lib/android/sdk/tools/bin/sdkmanager --install "ndk;20.0.5594570" --sdk_root=${ANDROID_SDK_ROOT}
       
@@ -23,7 +24,7 @@ jobs:
       run: ./gradlew build
 
     - name: build debug 
-      run: ./gradlew assembleRelease
+      run: ./gradlew assembleDebug
     - name: list files
       run: ls -lrt app/build/outputs/apk/debug
       
@@ -34,4 +35,3 @@ jobs:
         token: ${{secrets.FIREBASE_TOKEN}}
         groups: testers
         file: app/build/outputs/apk/debug/app-debug.apk
-
