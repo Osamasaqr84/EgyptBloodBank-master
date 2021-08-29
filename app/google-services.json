@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "357372000022",
+    "firebase_url": "https://egypt-blood-bank.firebaseio.com",
+    "project_id": "egypt-blood-bank",
+    "storage_bucket": "egypt-blood-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357372000022:android:d91adffcda0ef6f8",
+        "android_client_info": {
+          "package_name": "com.osamasaqr.khaled.egyptbloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357372000022-1kgsshp2cikrcumj163rpcbajn4qubfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.osamasaqr.khaled.egyptbloodbank",
+            "certificate_hash": "c4c572df379a20a169b21a9fae66d6cfc8c29327"
+          }
+        },
+        {
+          "client_id": "357372000022-nus7q07rp073ti1c416h4p15lrb7mu93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCAykw9UsWY4vc1fdRyX13qOFIXJIjcsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357372000022-nus7q07rp073ti1c416h4p15lrb7mu93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
