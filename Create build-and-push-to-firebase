@@ -27,7 +27,7 @@ jobs:
     - name: build debug 
       run: ./gradlew assembleRelease
     - name: list files
-      run: ls -lrt app/build/outputs/apk/release
+      run: ls -lrt app/build/outputs/apk/debug
       
     - name: upload artifact to Firebase App Distribution
       uses: wzieba/Firebase-Distribution-Github-Action@v1.2.1
