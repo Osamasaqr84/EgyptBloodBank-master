@@ -38,7 +38,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     public void onBindViewHolder(final CustomViewHolder viewHolder, @SuppressLint("RecyclerView") final int position) {
         final user feedItem = feedItemList.get(position);
 
-
+gfds
        viewHolder.Name.setText(feedItem.getName());
        viewHolder.phone.setText(feedItem.getPhone());
        viewHolder.blood.setText(feedItem.getGroop());
