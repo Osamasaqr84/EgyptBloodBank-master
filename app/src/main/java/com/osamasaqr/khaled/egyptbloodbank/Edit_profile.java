@@ -1,4 +1,4 @@
-package com.android.khaled.egyptbloodbank;
+package com.osamasaqr.khaled.egyptbloodbank;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.android.khaled.egyptbloodbank.R;
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;

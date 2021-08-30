@@ -1,4 +1,4 @@
-package com.android.khaled.egyptbloodbank;
+package com.osamasaqr.khaled.egyptbloodbank;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.android.khaled.egyptbloodbank.R;
 
 import java.util.ArrayList;
 

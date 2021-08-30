@@ -1,4 +1,4 @@
-package com.android.khaled.egyptbloodbank;
+package com.osamasaqr.khaled.egyptbloodbank;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.ProgressBar;
+
+import com.android.khaled.egyptbloodbank.R;
 
 public class Donores extends AppCompatActivity {
 

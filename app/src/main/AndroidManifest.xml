@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.osamasaqr.khaled.egyptbloodbank.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,25 +27,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registeration">
+        <activity android:name="com.osamasaqr.khaled.egyptbloodbank.Registeration">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.khaled.egyptbloodbank.MainActivity" />
+                android:value="com.android.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.MainActivity" />
         </activity>
 
-        <activity android:name=".Edit_profile">
+        <activity android:name="com.osamasaqr.khaled.egyptbloodbank.Edit_profile">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.khaled.egyptbloodbank.MainActivity" />
+                android:value="com.android.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.MainActivity" />
         </activity>
-        <activity android:name=".Donores" />
+        <activity android:name="com.osamasaqr.khaled.egyptbloodbank.Donores" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.osamasaqr.khaled.egyptbloodbank.LoginActivity"
             android:label="@string/title_activity_login"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.osamasaqr.khaled.egyptbloodbank.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.khaled.egyptbloodbank.MainActivity" />
+                android:value="com.android.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.MainActivity" />
         </activity>
     </application>
 

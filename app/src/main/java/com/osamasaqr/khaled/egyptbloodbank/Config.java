@@ -1,4 +1,4 @@
-package com.android.khaled.egyptbloodbank;
+package com.osamasaqr.khaled.egyptbloodbank;
 
 /**
  * Created by osama saqr on 10/13/2016.

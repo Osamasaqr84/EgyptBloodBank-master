@@ -1,4 +1,4 @@
-package com.android.khaled.egyptbloodbank;
+package com.osamasaqr.khaled.egyptbloodbank;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;
@@ -16,6 +16,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.khaled.egyptbloodbank.R;
 import com.firebase.client.Firebase;
 
 import java.util.Calendar;
