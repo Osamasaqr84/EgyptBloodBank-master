@@ -16,7 +16,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.khaled.egyptbloodbank.R;
+import com.osamasaqr.khaled.egyptbloodbank.R;
 import com.firebase.client.Firebase;
 
 import java.util.Calendar;

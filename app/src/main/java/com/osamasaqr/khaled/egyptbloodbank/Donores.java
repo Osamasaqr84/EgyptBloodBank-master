@@ -7,7 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.ProgressBar;
 
-import com.android.khaled.egyptbloodbank.R;
+import com.osamasaqr.khaled.egyptbloodbank.R;
 
 public class Donores extends AppCompatActivity {
 

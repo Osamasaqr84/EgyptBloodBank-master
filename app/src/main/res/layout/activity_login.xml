@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.android.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.LoginActivity">
+    tools:context="com.osamasaqr.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar

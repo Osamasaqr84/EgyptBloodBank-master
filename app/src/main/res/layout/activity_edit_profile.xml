@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.android.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.Edit_profile">
+    tools:context="com.osamasaqr.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.Edit_profile">
 
 
         <ScrollView
@@ -14,7 +14,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/scrollView"
-                tools:context="com.android.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.Registeration"
+                tools:context="com.osamasaqr.khaled.egyptbloodbank.com.osamasaqr.khaled.egyptbloodbank.Registeration"
                 android:orientation="vertical">
                 >
 

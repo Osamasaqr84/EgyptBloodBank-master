@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.khaled.egyptbloodbank.R;
+import com.osamasaqr.khaled.egyptbloodbank.R;
 
 import java.util.ArrayList;
 

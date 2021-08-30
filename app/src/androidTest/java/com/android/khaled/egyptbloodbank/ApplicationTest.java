@@ -1,4 +1,4 @@
-package com.android.khaled.egyptbloodbank;
+package com.osamasaqr.khaled.egyptbloodbank;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
