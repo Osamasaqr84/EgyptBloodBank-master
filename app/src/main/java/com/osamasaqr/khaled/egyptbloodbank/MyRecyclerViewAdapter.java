@@ -43,7 +43,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
        viewHolder.phone.setText(feedItem.getPhone());
        viewHolder.blood.setText(feedItem.getGroop());
        viewHolder.address.setText(feedItem.getCity()+"-"+feedItem.getRegion());
-       viewHolder.address.setText(feedItem.getCity()+"-"+feedItem.getRegion());
        viewHolder.call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
