@@ -121,6 +121,7 @@ update.setOnClickListener(new View.OnClickListener() {
             user.setUname(uname_str);
             user.setPass(pass_str);
             user.setRe_pass(repass_str);
+            user.setRe_pass(repass_str);
 
             user.setUser_id(id);
 
