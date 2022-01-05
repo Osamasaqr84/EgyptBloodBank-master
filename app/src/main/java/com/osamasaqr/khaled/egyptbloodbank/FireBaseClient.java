@@ -39,6 +39,7 @@ public class FireBaseClient {
         Firebase.setAndroidContext(c);
         //INSTANTIATE
         fire=new Firebase(DB_URL);
+        fire=new Firebase(DB_URL);
     }
 
     public FireBaseClient(Context c,String DB_URL) {
